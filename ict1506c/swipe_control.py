@@ -3,7 +3,6 @@ import cv2
 import mediapipe as mp
 import time
 import os
-import RPi.GPIO as GPIO
 from flask import Flask, Response
 from gpiozero import LED
 

@@ -21,7 +21,7 @@ hands = mp_hands.Hands(max_num_hands=1, min_detection_confidence=0.7)
 face_detection = mp_face_detection.FaceDetection(min_detection_confidence=0.5)
 mp_drawing = mp.solutions.drawing_utils
 
-# Setup GPIO for LED
+# Setup GPIO for LED You may configure this if needed
 green_led = LED(27)
 red_led = LED(22)
 green_led.off()
